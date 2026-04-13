@@ -1,0 +1,9 @@
+proj_settings:
+  debug_mode: False  # Easy to toggle right here
+  log_level: "INFO"
+
+model_settings:
+  name: "gemini-2.5-flash"
+  temperature: 0.7
+  thinking_budget: 100
+  max_output_tokens: 100
