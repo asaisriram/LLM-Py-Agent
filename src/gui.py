@@ -63,8 +63,6 @@ class GeminiGui(ctk.CTk):
         self.btn.configure(state="disabled", text="THINKING...")
         self.update()
 
-        # Notice we no longer pass 'tokens' here since the bridge/callback 
-        # will pull it from the YAML config automatically.
         result = self.process_callback(prompt)
 
         # Update UI
